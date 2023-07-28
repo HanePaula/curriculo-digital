@@ -50,13 +50,13 @@ header {
     margin-bottom: 2em;
 }
 .topico__titulo{
-    font-size: 1.4rem;
+    font-size: 1.4em;
     font-weight: 400;
     color: var(--fundo-secundario);
     margin-bottom: 2rem;
 }
 .topico__texto{
-    font-size: 1rem;
+    font-size: 1em;
     font-weight: 700;
 }
 .topico__paragrafo{
@@ -65,4 +65,18 @@ header {
 footer{
     background-color: var(--fundo-terciario);
     padding: 1rem;
+}
+@media screen and (max-width: 768px){
+    body{
+        font-size: 9px;
+    }
+    .topico{
+        margin: 4em 4em;
+    }
+    .topico__titulo{
+        margin-bottom: 1em;
+    }
+    .topico__paragrafo{
+        margin-bottom: 1em;
+    }
 }
