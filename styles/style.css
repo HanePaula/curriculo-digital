@@ -1,0 +1,68 @@
+:root {
+    --fundo-primario: #EFEAEA;
+    --fundo-secundario: #404040;
+    --fundo-terciario: #000000;
+    --fonte-primaria: 'Open Sans';
+    --fonte-secundaria: 'Questrial';
+}
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    width: 100vw;
+    background-color: var(--fundo-primario);
+    font-size: 16px;
+    font-family: var(--fonte-primaria);
+    color: var(--fundo-terciario);
+}
+header {
+    background-color: var(--fundo-secundario);
+    padding: 2em;
+}
+.apresentacao {
+    text-align: center;
+    margin: 3em 0;
+    margin-bottom: 6em;
+}
+.apresentacao__titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 3em;
+    font-weight: 400;
+    margin-bottom: 0.5rem;
+}
+.apresentacao__texto{
+    font-size: 1em;
+    color: var(--fundo-secundario);
+    font-weight: 400;
+    margin-bottom: 0.5em;
+}
+.maior {
+    margin-bottom: 1em;
+}
+.topico{
+    margin: 4em 10em;
+}
+.topico__separador{
+    padding: 0.15em;
+    background-color: var(--fundo-terciario);
+    border-radius: 0.15em;
+    margin-bottom: 2em;
+}
+.topico__titulo{
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--fundo-secundario);
+    margin-bottom: 2rem;
+}
+.topico__texto{
+    font-size: 1rem;
+    font-weight: 700;
+}
+.topico__paragrafo{
+    margin-bottom: 2rem;
+}
+footer{
+    background-color: var(--fundo-terciario);
+    padding: 1rem;
+}
