@@ -6,8 +6,7 @@ Este é o repositório do meu currículo, onde apresento minhas experiências, h
 
 Você pode visualizar o currículo diretamente no navegador acessando o seguinte link: [Curriculum](https://curriculum-lilac.vercel.app/)
 
-## Tecnologias Utilizadas
+## Materiais Utilizados
 
-- HTML
-- CSS
+Para a produção desse currículo, utilizei unicamente a linguagem de marcação HTML5 e CSS para a estilização. Além disso, utilizei a seguinte template para a criação da página web: [Currículo profissional da TI preto e cinza](https://www.canva.com/p/templates/EAEl_fMs7JA-curr-culo-profissional-da-ti-preto-e-cinza/)
 
